@@ -17,10 +17,16 @@ public class Student extends Person{
 		this.gpa = gpa;
 	}
 
+//	@Override
+//	public String toString() {
+//		return "Student [gpa=" + gpa + ", getID()=" + getID() + ", getAge()=" + getAge() + ", getLastName()="
+//				+ getLastName() + ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()="
+//				+ hashCode() + "]";
+//	}
+
 	@Override
 	public String toString() {
-		return "Student [gpa=" + gpa + ", ID=" + getID() + ", Age=" + getAge() + ", Lastname()="
-				+ getLastName() + "]";
+		return "Student [gpa=" + gpa + "\t" + super.toString();
 	}	
 
 
